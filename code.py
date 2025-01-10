@@ -122,13 +122,13 @@ while True: #Continuous loop
     
     try: #Pauses to emulate thinking, code block is used throughout program
     
-        time.sleep(3)
+        time.sleep(1)
         
     except KeyboardInterrupt:
         
         print("\nDon't interrupt me!\n")
     
-    print(' '.join(keyWord)) #Presents the word for the first time
+    print(' '.join(keyWord)) #Presents the word
     
     while incorrectGuesses < 6: #Loops until user runs out of guesses or wins
         
